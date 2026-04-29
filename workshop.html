@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AWS Cloud Bootcamp</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: #f5f7fa;
+    }
+
+    header {
+        background: linear-gradient(120deg, #232f3e, #37475a);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 40px;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 18px;
+        color: #ddd;
+    }
+
+    .btn {
+        background: #ff9900;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    section {
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .schedule li {
+        margin: 10px 0;
+    }
+
+    .price {
+        font-size: 28px;
+        color: #ff9900;
+        font-weight: bold;
+    }
+
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    footer {
+        background: #232f3e;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>AWS Cloud Bootcamp 2026</h1>
+    <p>Hands-on training to master cloud computing & deploy real applications</p>
+    <button class="btn">Register Now</button>
+</header>
+
+<section>
+    <h2>Why Join This Workshop?</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Hands-on Labs</h3>
+            <p>Work directly with EC2, S3, IAM and deploy live applications.</p>
+        </div>
+        <div class="card">
+            <h3>Real Projects</h3>
+            <p>Build and host your own cloud-based website.</p>
+        </div>
+        <div class="card">
+            <h3>Beginner Friendly</h3>
+            <p>No prior cloud experience required.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Workshop Schedule</h2>
+    <div class="card">
+        <ul class="schedule">
+            <li>Day 1: Introduction to AWS & IAM</li>
+            <li>Day 2: EC2 Setup & Deployment</li>
+            <li>Day 3: S3 Static Website Hosting</li>
+            <li>Day 4: Project + Certification Guidance</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Pricing</h2>
+    <div class="card" style="text-align:center;">
+        <p class="price">NPR 1999</p>
+        <p>Includes certificates, materials & cloud labs</p>
+    </div>
+</section>
+
+<section>
+    <h2>Register Now</h2>
+    <div class="card">
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Your Message (optional)"></textarea>
+            <button class="btn" type="submit">Submit Registration</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 AWS Bootcamp Nepal | Learn • Build • Deploy</p>
+</footer>
+
+</body>
+</html>
